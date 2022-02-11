@@ -17,5 +17,7 @@ public class biodata {
       
         System.out.println("\n\tBIODATA\t");
         System.out.print("Name = " + name + "\nRoll No. = " + roll + "\nBranch = " + branch);
+        
+        sc.close();
     }
 }
