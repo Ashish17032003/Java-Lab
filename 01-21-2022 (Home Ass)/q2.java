@@ -1,12 +1,12 @@
 //WAP to check whether a no is Even or ODD.
 
 import java.util.*;
-public class odd_even 
+public class q2 
 {
     public static void main(String []args)
     {
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter a number : ");
+        System.out.println("Enter a number: ");
 
         int a=sc.nextInt();
       

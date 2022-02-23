@@ -1,27 +1,34 @@
 //Write a program to overload subtract method with various parameters in a class in Java
 
-public class q2 {
+import java.util.*;
 
-    public int subtract(int x, int y)
+class overload
+{
+    void subtract(int x, int y)
     {
-        return (x - y);
-    }
-  
-    public double subtract(double x, double y)
-    {
-        return (x - y);
-    }
-
-    public double subtract(float x, float y)
-    {
-        return (x - y);
-    }
-    public static void main(String args[])
-    {
-        q2 s = new q2();
-        System.out.println(s.subtract(22,98));
-        System.out.println(s.subtract(9.2,5.24));
-        System.out.println(s.subtract(89.5,60));
+        System.out.println(x-y);
     }
     
+    void subtract(double x, double y) 
+    {
+        System.out.println(x - y);
+    }
+    
+    void subtract(float x, float y) 
+    {
+        System.out.println(x - y);
+    }
+}
+
+
+public class q2 
+{
+    public static void main(String args[])
+    {
+        overload ob=new overload();
+        float f=45.5f;
+        ob.subtract(69 , 69);
+        ob.subtract(369.78, 17.925);
+        ob.subtract( f , 12);
+    }
 }

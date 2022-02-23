@@ -1,8 +1,7 @@
 // WAP to display the biggest no from 3 inputted no using if else ladder  and nested if else
 
-
 import java.util.Scanner;
-public class greatest 
+public class q5 
 {
     public static void main(String args[]) 
     {

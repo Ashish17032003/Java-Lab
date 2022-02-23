@@ -11,29 +11,27 @@ class Rectangle
 
     public void getvalue()
     {
-        System.out.println("Enter the length and breadth:");
-        Scanner s=new Scanner(System.in);
-        length=s.nextInt();
-        breadth=s.nextInt();
-        s.close();
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter the length and breadth: ");
+        length=sc.nextInt();
+        breadth=sc.nextInt();
+        sc.close();
     }
 
     public double Area()
     {
-        area=length*breadth;
-        return area;
+        return length*breadth;
     }
 
     public double Perimeter()
     {
-        perimeter=2*(length+breadth);
-        return perimeter;
+        return 2*(length+breadth);
     }
 
-    public void display()
+    public void display(double area, double perimeter)
     {
-        System.out.println("Area:"+area);
-        System.out.print("Perimeter:"+perimeter);
+        System.out.println("Area: "+area);
+        System.out.print("Perimeter: "+perimeter);
     }
 }
 
@@ -42,10 +40,13 @@ public class q4
 {
     public static void main(String []args)
     {
-    Rectangle obj = new Rectangle();
-    obj.getvalue();
-    obj.Area();
-    obj.Perimeter();
-    obj.display();
+        Rectangle obj = new Rectangle();
+        double area,perimeter;
+        obj.getvalue();
+
+        area = obj.Area();
+        perimeter = obj.Perimeter();
+
+        obj.display(area,perimeter);
     }
 }

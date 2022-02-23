@@ -2,12 +2,13 @@
 
 
 import java.util.Scanner;
-public class twonum {
+public class q2
+{
     public static void main(String[] args)
     {
         Scanner sc = new Scanner(System.in);
         int num1,num2,c;
-        System.out.print("Enter two numbers : ");
+        System.out.print("Enter two numbers: ");
         num1 = sc.nextInt();
         num2 = sc.nextInt(); 
         System.out.println("\n\n1. ADDITION");
@@ -15,6 +16,7 @@ public class twonum {
         System.out.println("3. MULTIPLICATION");
         System.out.println("----Enter your choice----");
         c = sc.nextInt();
+
         switch(c)
         {
             case 1: 
@@ -28,7 +30,7 @@ public class twonum {
 
                 break;
             default:
-                System.out.println("Invalid");
+                System.out.println("Invalid choice");
         }
 
         sc.close();
