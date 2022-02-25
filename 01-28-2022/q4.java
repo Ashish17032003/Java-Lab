@@ -1,4 +1,4 @@
-//Display all the perfect number between a range and a
+//Display all the perfect number between a range 
 
 import java.util.Scanner;
 

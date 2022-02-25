@@ -40,7 +40,8 @@ class wood_box extends box
     }
 }
 
-public class q2 {
+public class q2 
+{
     public static void main(String args[])
     {
         wood_box ob = new wood_box();   

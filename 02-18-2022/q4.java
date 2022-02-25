@@ -48,7 +48,7 @@ class Person extends Account
 }
 
 
-public class bank_5 
+public class q4 
 {
     public static void main(String args[]) 
     {

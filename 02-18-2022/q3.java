@@ -41,10 +41,10 @@ public class q3
     public static void main(String args[]) 
     {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the Radius : ");
+        System.out.print("Enter the Radius: ");
         int l, b, r;
         r = sc.nextInt();
-        System.out.print("Enter the length and breadth  : ");
+        System.out.print("Enter the length and breadth : ");
         l = sc.nextInt();
         b = sc.nextInt();
         System.out.println("--- Area of Circle ---");
