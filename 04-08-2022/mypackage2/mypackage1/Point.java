@@ -12,7 +12,7 @@ javac -d directory javafilename  // -d is used to specify the output directory
 java mypackage1.Point
 */
 
-package mypackage1;
+package mypackage2.mypackage1;
 import java.lang.Math;
 
 public class Point 

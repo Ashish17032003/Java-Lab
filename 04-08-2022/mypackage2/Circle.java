@@ -15,7 +15,7 @@ java mypackage2.Circle
 */ 
 
 package mypackage2;
-import mypackage1.*;
+import mypackage2.mypackage1.Point;
 
 public class Circle 
 {

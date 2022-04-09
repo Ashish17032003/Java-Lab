@@ -18,8 +18,8 @@ Write Java Program(s) to implement above classes and demonstrate their use.
 
 */
 
-import mypackage1.*;
-import mypackage2.*;
+import mypackage2.mypackage1.Point;
+import mypackage2.Circle;
 import java.util.Scanner;
 
 public class q1
